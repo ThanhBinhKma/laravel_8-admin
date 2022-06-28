@@ -142,25 +142,25 @@
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="/chartjs" class="nav-link">
+              <a href="/chart-chartjs" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>ChartJS</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="/flot" class="nav-link">
+              <a href="/chart-flot" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Flot</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="/inline" class="nav-link">
+              <a href="/chart-inline" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Inline</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="/u-plot" class="nav-link">
+              <a href="/chart-uplot" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>uPlot</p>
               </a>
@@ -236,25 +236,25 @@
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="pages/forms/general.html" class="nav-link">
+              <a href="/form-general" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>General Elements</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="pages/forms/advanced.html" class="nav-link">
+              <a href="/form-advanced" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Advanced Elements</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="pages/forms/editors.html" class="nav-link">
+              <a href="/form-editors" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Editors</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="pages/forms/validation.html" class="nav-link">
+              <a href="/form-validation" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Validation</p>
               </a>
@@ -326,19 +326,19 @@
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="pages/mailbox/mailbox.html" class="nav-link">
+              <a href="/mail-box" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Inbox</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="pages/mailbox/compose.html" class="nav-link">
+              <a href="/mailbox-compose" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Compose</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="pages/mailbox/read-mail.html" class="nav-link">
+              <a href="/mailbox-read-mail" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Read</p>
               </a>

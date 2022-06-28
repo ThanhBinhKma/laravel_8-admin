@@ -63,4 +63,37 @@ class HomeController extends Controller
     {
         return view('admin.pages.UI.timeline');
     }
+
+    // Form
+
+    public function formAdvanced()
+    {
+        return view('admin.pages.forms.advanced');
+    }
+    public function formEditors()
+    {
+        return view('admin.pages.forms.editors');
+    }
+    public function formGeneral()
+    {
+        return view('admin.pages.forms.general');
+    }
+    public function formValidation()
+    {
+        return view('admin.pages.forms.validation');
+    }
+
+    //Mail Box
+    public function mailboxCompose()
+    {
+        return view('admin.pages.mailbox.compose');
+    }
+    public function mailbox()
+    {
+        return view('admin.pages.mailbox.mailbox');
+    }
+    public function mailboxReadMail()
+    {
+        return view('admin.pages.mailbox.read-mail');
+    }
 }

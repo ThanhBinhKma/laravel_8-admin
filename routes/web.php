@@ -16,10 +16,10 @@ use App\Http\Controllers\Admin\HomeController;
 
 Route::get('/', [HomeController::class, 'index']);
 // Chart
-Route::get('/flot', [HomeController::class, 'flot'])->name('pages.chart.flot');
-Route::get('/chartjs', [HomeController::class, 'chartjs'])->name('pages.chart.chartjs');
-Route::get('/inline', [HomeController::class, 'inline'])->name('pages.chart.inline');
-Route::get('/u-plot', [HomeController::class, 'uplot'])->name('pages.chart.uplot');
+Route::get('/chart-flot', [HomeController::class, 'flot'])->name('pages.chart.flot');
+Route::get('/chart-chartjs', [HomeController::class, 'chartjs'])->name('pages.chart.chartjs');
+Route::get('/chart-inline', [HomeController::class, 'inline'])->name('pages.chart.inline');
+Route::get('/chart-uplot', [HomeController::class, 'uplot'])->name('pages.chart.uplot');
 
 // UI
 Route::get('/ui-button', [HomeController::class, 'button'])->name('pages.ui.button');
@@ -30,3 +30,17 @@ Route::get('/ui-navbar', [HomeController::class, 'navbar'])->name('pages.ui.navb
 Route::get('/ui-ribbons', [HomeController::class, 'ribbons'])->name('pages.ui.ribbons');
 Route::get('/ui-sliders', [HomeController::class, 'sliders'])->name('pages.ui.sliders');
 Route::get('/ui-timeline', [HomeController::class, 'timeline'])->name('pages.ui.timeline');
+
+//Form
+
+Route::get('/form-advanced', [HomeController::class, 'formAdvanced'])->name('pages.from.advanced');
+Route::get('/form-editors', [HomeController::class, 'formEditors'])->name('pages.from.editors');
+Route::get('/form-general', [HomeController::class, 'formGeneral'])->name('pages.from.general');
+Route::get('/form-validation', [HomeController::class, 'formValidation'])->name('pages.from.validation');
+
+
+// Mail Box
+
+Route::get('/mailbox-compose', [HomeController::class, 'mailboxCompose'])->name('pages.mailbox.compose');
+Route::get('/mailbox', [HomeController::class, 'mailbox'])->name('pages.mailbox.index');
+Route::get('/mailbox-read-mail', [HomeController::class, 'mailboxReadMail'])->name('pages.mailbox.read.mail');
